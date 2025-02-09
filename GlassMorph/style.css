@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica', serif;
+    height: 100vh;
+    background-color: #4e236f;
+    overflow: hidden;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.bubble {
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.first-bubble {
+    top: 127px;
+    left: -50px;
+    width: 150px;
+    height: 150px;
+}
+
+.second-bubble {
+    width: 400px;
+    height: 400px;
+    left: 425px;
+    top: 25%;
+}
+
+.third-bubble {
+    width: 500px;
+    height: 500px;
+    top: -250px;
+    right: 350px;
+}
+
+.fourth-bubble {
+    width: 80px;
+    height: 80px;
+    bottom: 150px;
+    right: 630px;
+}
+
+.fifth-bubble {
+    bottom: -80px;
+    right: -80px;
+}
+
+.phone-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.phone {
+    width: 500px;
+    height: 900px;
+    background-color: rgba(201, 202, 243 1);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.phone-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.phone-title h1 {
+    color: rgb(225, 226, 253);
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.input-search {
+    margin-top: .5rem;
+    text-align: center;
+    width: 100%;
+    height: 5rem;
+    position: relative;
+}
+
+.input-search img {
+    position: absolute;
+    top: 12px;
+    left: 34px;
+}
+
+.input-search input {
+    width: 90%;
+    border-radius: 5rem;
+    border: none;
+    outline: none;
+    height: 60%;
+    font-size: 1rem;
+    color: #4e236f;
+    padding: 0 2.7rem;
+}
+
+.input-search input::placeholder {
+    color :#4e236f;
+    letter-spacing: 1px;
+}
+
+.phone-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+    gap: 1rem;
+}
+
+.phone-cards .card {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 2px solid rgba(255, 255, 255, .5);
+    background-color: rgba(255, 255, 255, .3);
+    backdrop-filter: blur(15px);
+    color: white;
+}
+
+.phone-cards .card h2 {
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.phone-cards .card p {
+    line-height: 1.5;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.waves {
+    text-align: center;
+    width: 100%;
+    height: 10rem;
+}
+
+.waves img {
+    width: 50%;
+    height: 100%;
+}
+
+.button-start {
+    text-align: center;
+    width: 100%;
+}
+
+.button-start button {
+    width: 100%;
+    height: 4rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    background: linear-gradient(to right, #F995FA 20%, #8810F6);
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
